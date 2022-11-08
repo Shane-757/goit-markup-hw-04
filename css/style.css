@@ -327,6 +327,22 @@ img{
     margin-bottom: 50px;
 }
 
+.customer-title-list{
+    display: flex;
+    justify-content: center;
+}
+
+.customer-title-list-item{
+    width:170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customer-title-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
 /*PORTFOLIO*/
 
 .portfolio{
@@ -371,6 +387,11 @@ img{
 
 .portfolio-filters-item:not(:last-child){
     margin-right: 8px;
+}
+
+.portfolio-list-item:hover,
+.porfolio-list-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list-item{
