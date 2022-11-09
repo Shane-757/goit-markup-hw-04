@@ -505,10 +505,21 @@ img{
 .footer-item-link:focus{
     color: var(--accent-color);
 }
+.footer-social-media-title{
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+    font-family: Roboto;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+}
 
 .footer-social-media{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-
 }
+
+.footer-social-media-img{
+    margin-right: 10px;
+  }
