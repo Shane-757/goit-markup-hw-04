@@ -119,6 +119,12 @@ img{
     margin-right: 50px;
 }
 
+.header-image-contact{
+    margin-right: 10px;
+    padding-top: 32px;
+    padding-bottom: 34px;
+}
+
 .header-item-contact-link{
     color:var(--primary-text-color);
     font-weight: 500;
@@ -219,8 +225,18 @@ img{
     width: 270px;
 }
 
+
 .features-item:not(:last-child){
     margin-right: 30px;
+}
+.features-image{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .features-item-title{
@@ -308,7 +324,16 @@ img{
 
 .team-item-description{
     font-size: 16px;
-    line-height: 1.18;   
+    line-height: 1.18;  
+    margin-bottom: 16px; 
+}
+
+.team-social-media:hover,
+.team-social-media:focus{
+    fill: #2196F3;
+}
+.team-social-media{
+    margin-right: 10px;
 }
 
 /*Customers*/
@@ -329,18 +354,26 @@ img{
 
 .customer-title-list{
     display: flex;
-    justify-content: center;
+    
 }
 
-.customer-title-list-box{
+
+
+.customer-title-list-box:not(:last-child){
+    margin-right: 30px;
+}
+.customer-title-list-item{
     width:170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.customer-title-list-box:not(:last-child){
-    margin-right: 30px;
+.customer-title-list-box:hover,
+.customer-title-list-box:focus{
+    fill:#2196F3;
 }
 
 
