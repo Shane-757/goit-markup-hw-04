@@ -505,3 +505,10 @@ img{
 .footer-item-link:focus{
     color: var(--accent-color);
 }
+
+.footer-social-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
