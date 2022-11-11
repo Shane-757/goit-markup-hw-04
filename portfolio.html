@@ -23,14 +23,22 @@
             </ul> 
         </nav>
         <ul class="header-list-contact">  
-            <li class="header-image-contact"> <svg class="header-item-img" width="16px" height="12px">
-                <use href="images\sprite.svg#icon-envelope"></use>
-            </svg></li>
-            <li class="header-item-contact"><a class="header-item-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-image-contact"> <svg class="header-item-img" width="10px" height="16px">
-                <use href="images\sprite.svg#icon-smartphone"></use>
-            </svg></li>
-            <li class="header-item-contact"><a class="header-item-contact-link"  href="tel:380961111111">+38 096 111 11 11</a></li>
+            <li class="header-item-contact">
+                <a class="header-item-contact-link" href="mailto:info@devstudio.com">
+                    <svg class="header-item-contact-icon" width="16px" height="12px">
+                        <use href="images\sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+            </li>           
+            <li class="header-item-contact">
+                <a class="header-item-contact-link"  href="tel:380961111111">
+                    <svg class="header-item-contact-icon" width="10px" height="16px">
+                        <use href="images\sprite.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
+            </li>
         </ul>
         </div>
     </header>
@@ -109,33 +117,51 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <a class="footer-logo" href="./index.html">WebStudio</a>
-            <address class="footer-address">
-               <a class="footer-location" href="https://goo.gl/maps/39EHeSABdAvS7GECA" target="_blank">695 Park Ave, New York, NY 10065,<br> United States</a>
-                <ul class="footer-list-contact">
-                    <li class="footer-item"><a class="footer-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-item"><a class="footer-item-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        <div class="container footer-container">
+            <div class="footer-left">
+        <a class="footer-logo" href="./index.html">WebStudio</a>
+        <address class="footer-address">
+           <a class="footer-location" href="https://goo.gl/maps/39EHeSABdAvS7GECA" target="_blank">695 Park Ave, New York, NY 10065,<br> United States</a>
+            <ul class="footer-list-contact">
+                <li class="footer-item"><a class="footer-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-item"><a class="footer-item-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+        </div>
+        <div class="footer-middle">
+            <h3 class="footer-middle-title"> FIND US ON</h3>
+            <ul class="footer-social-media">                
+                        <li class="footer-socials-item">
+                            <a class="footer-socials-link" href="#">
+                                <svg class="footer-socials-link-icon" width="20px" height="20px">
+                                    <use href="images/sprite.svg#icon-instagram-footer"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-socials-item">
+                            <a class="footer-socials-link" href="#">
+                                <svg class="footer-socials-link-icon" width="20px" height="20px">
+                                    <use href="images/sprite.svg#icon-twitter-footer"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-socials-item">
+                            <a class="footer-socials-link" href="#">
+                                <svg class="footer-socials-link-icon" width="20px" height="20px">
+                                    <use href="images/sprite.svg#icon-facebook-footer"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-socials-item">
+                            <a class="footer-socials-link" href="#">
+                                <svg class="footer-socials-link-icon" width="20px" height="20px">
+                                    <use href="images/sprite.svg#icon-linkedin-footer"></use>
+                                </svg>
+                            </a>
+                        </li>
                 </ul>
-                <ul class="footer-social-media">
-                    <li>
-                        <p class="footer-social-media-title">FIND US ON</p>
-                    <svg class="footer-social-media-img" width="44px" height="44px">
-                        <use href="images/sprite.svg#icon-instagram"></use>"
-                    </svg>
-                    <svg class="footer-social-media-img" width="44px" height="44px">
-                        <use href="images/sprite.svg#icon-twitter"></use>"
-                    </svg>
-                    <svg class="footer-social-media-img" width="44px" height="44px">
-                        <use href="images/sprite.svg#icon-facebook"></use>"
-                    </svg>
-                    <svg class="footer-social-media-img" width="44px" height="44px">
-                        <use href="images/sprite.svg#icon-linkedin"></use>"
-                    </svg>
-                    </li>
-                </ul>
-            </address>
             </div>
+        </div>
     </footer>
 </body>
 </html>
